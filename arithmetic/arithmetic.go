@@ -9,3 +9,7 @@ func IsPrime(num int) bool {
 	}
 	return true
 }
+
+func SumToN(n int) int {
+	return (n * (n + 1)) / 2
+}
